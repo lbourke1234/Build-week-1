@@ -19,6 +19,39 @@
         <!--------- main content ------------------------------>
 
         <!--------- horizontal navbar------------------------------>
+        <!-- nav bar of page -->
+        <div class="container-fluid pt-3">
+            <div class="row">
+                <div class="col-6">
+                    <i class="bi bi-caret-left text-white"></i>
+                    <i class="bi bi-caret-right text-white"></i>
+                </div>
+                <div class="col-6 navbar-col">
+                    <!-- Example single danger button -->
+                    <div class="btn-group">
+                        <button
+                            type="button"
+                            class="btn btn-danger dropdown-toggle navbar-btn"
+                            data-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Leon Bourke
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#"
+                                >Something else here</a
+                            >
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of drop-down button -->
+        <!-- end of navbar -->
 
         <!----------------- album image and tile ------------------>
         <section id="album-page-hero">
@@ -63,7 +96,7 @@
         </section>
 
         <!----------------- play heart ... ---------------------------->
-        <section id="play-heart-dots" style="background-color: rgb(9, 79, 102)">
+        <section id="play-heart-dots">
             <div class="container">
                 <div class="row">
                     <div class="col-1 mt-4 ml-3">
@@ -113,7 +146,7 @@
             </div>
         </section>
 
-        <section id="track-list-icons" style="background-color: rgb(1, 56, 56)">
+        <section id="track-list-icons">
             <div class="container">
                 <div class="row ml-3">
                     <div class="col-10 justify-content-start">
@@ -147,10 +180,7 @@
             </div>
         </section>
         <hr />
-        <section
-            id="album-track-list"
-            style="background-color: rgb(10, 55, 55)"
-        >
+        <section id="album-track-list">
             <div class="container">
                 <div class="row">
                     <div class="col-5">
@@ -250,16 +280,8 @@
                             >
                         </div>
                     </div>
-                    <div
-                        id="blank-space"
-                        class="col-5"
-                        style="background-color: rgb(2, 48, 48)"
-                    ></div>
-                    <div
-                        id="track-times"
-                        class="col-2"
-                        style="background-color: rgb(2, 87, 87)"
-                    >
+                    <div id="blank-space" class="col-5"></div>
+                    <div id="track-times" class="col-2">
                         <div class="mb-3 ml-3 pb-5">2:56</div>
                         <div class="mb-3 ml-3 pb-5">4:56</div>
                         <div class="mb-3 ml-3 pb-5">3:16</div>
