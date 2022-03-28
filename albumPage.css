@@ -1,0 +1,116 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+/* font-family: 'Gotham', sans-serif;
+font-family: 'Gotham Black', sans-serif;
+font-family: 'Gotham Light', sans-serif;
+font-family: 'Gotham Thin', sans-serif;
+font-family: 'Gotham XLight', sans-serif;
+font-family: 'Gotham Book', sans-serif;
+font-family: 'Gotham Ultra', sans-serif; */
+
+body {
+    background: rgba(18, 18, 16, 0.611);
+    color: #ececec;
+}
+.btn-user {
+    background: rgb(18, 18, 16);
+    background: linear-gradient(
+        0deg,
+        rgb(54, 2, 2) 0%,
+        rgb(63, 3, 9) 58%,
+        rgb(49, 1, 7) 100%
+    );
+    color: #e0dbdb !important;
+}
+
+.btn-user:hover {
+    background: rgb(18, 18, 16);
+    background: linear-gradient(
+        0deg,
+        rgba(56, 3, 3, 0.555) 0%,
+        rgb(109, 6, 17) 58%,
+        rgba(49, 1, 7, 0.342) 100%
+    );
+    color: #e0dbdb !important;
+}
+
+.dropdown {
+    margin-left: 920px;
+}
+
+#time-icon {
+    margin-left: px;
+}
+
+.title-song {
+    padding-left: 25px;
+}
+
+.singer-name {
+    margin-left: 36px;
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    background: rgb(18, 18, 16);
+    background: linear-gradient(
+        0deg,
+        rgba(56, 3, 3, 0.555) 0%,
+        rgb(109, 6, 17) 58%,
+        rgba(49, 1, 7, 0.342) 100%
+    );
+}
+
+.dropdown-menu a {
+    color: #e0dbdb;
+}
+
+.dropdown-menu a:hover {
+    background: rgb(18, 18, 16);
+    background: linear-gradient(
+        0deg,
+        rgba(56, 3, 3, 0.555) 0%,
+        rgb(109, 6, 17) 58%,
+        rgba(49, 1, 7, 0.342) 100%
+    );
+    color: #e0dbdb;
+}
+
+.navbar > a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 14px;
+    margin-right: 3px;
+    border-radius: 15px;
+    color: #ececec;
+    transition-duration: 0.2s;
+    background-color: rgba(72, 63, 63, 0.801);
+}
+
+.navbar a:hover {
+    background-color: rgb(112, 75, 75);
+}
+
+.next {
+    background-color: rgb(54, 5, 19) 87%;
+    color: #ececec;
+}
+
+.previous {
+    background-color: rgb(54, 5, 19) 87%;
+    color: #ececec;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.album-page-album-info img {
+    height: 22px;
+    border-radius: 2rem;
+}
+/*  ------------- play heart ...  ----------------------------*/
+.bi-heart {
+    color: #e0dbdb;
+    font-size: 35px;
+    align-content: center;
+}
