@@ -1,0 +1,144 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
+
+
+h1, p {
+        color: white;
+}
+
+h1 {
+    font-weight: 900 !important;
+    font-size: 3em !important;
+}
+
+
+h2 { 
+    color: white;
+}
+
+tr, th {
+    color: rgb(93, 94, 95)
+}
+
+.top-navbar {
+    position: fixed;
+    z-index: 1;
+}
+
+.profile-picture-dropdown {
+    background-color: rgba(0, 0, 0, .7);
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+    align-items: center;
+    border-radius: 23px;
+}
+
+.monthly-listeners-text {
+    font-size: 1em;
+}
+
+.jumbotron {
+    background-image: url(https://whiplash.net/imagens_promo/queen_rir_ps.jpg);
+    min-height: 100px;
+    margin-bottom: 0;
+    }
+
+.inner-container-jumbotron {
+   padding-top: 150px;
+}
+
+.verified-logo {
+    background-color: blue;
+    
+}
+
+.bi-caret-down-fill {
+    color: white;
+}
+
+.bi-patch-check-fill {
+    color: blue;
+}
+
+.container-play-stop-button {
+background-color: black;
+}
+
+.play-follow-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.follow-text {
+    font-size: 0.8em;
+    font-weight: 500;
+    border: 1px solid rgb(93, 94, 95);
+    margin: 0;    
+padding-left: 0.6em;
+padding-right: 0.6em;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+cursor: pointer;
+}
+
+
+.bi-play-circle-fill {
+    color: #1ed760;
+    font-size: 4em;
+    cursor: pointer;
+}
+
+.bi-three-dots { 
+color: rgb(93, 94, 95);
+cursor: pointer;
+}
+
+
+.table-container {
+
+background-color: black;}
+
+.album-cover-picture {
+    max-height: 80px;
+}
+
+.artist-pick {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-container-artist-pick {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.table-cover-picture {
+    max-height: 50px;
+}
+
+.table td, .table th {
+    vertical-align: baseline;
+}
+
+.soundwave-icon {
+    vertical-align: middle;
+    color: #1ed760;
+
+}
+
+.table thead th {
+    vertical-align: middle;
+}
+
+.table-row {
+    padding-left: 15px !important;
+}
+
+ .see-more-text {
+       font-size: 0.8em;
+    font-weight: 500;
+} 
