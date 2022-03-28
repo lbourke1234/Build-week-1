@@ -37,6 +37,16 @@ body {
     margin-left: 920px;
 }
 
+#album-page-hero {
+    background: rgb(217, 2, 216);
+    background: linear-gradient(
+        45deg,
+        rgba(217, 2, 216, 1) 7%,
+        rgba(116, 39, 167, 1) 38%,
+        rgba(60, 0, 119, 1) 76%
+    );
+}
+
 #time-icon {
     margin-left: px;
 }
@@ -113,4 +123,12 @@ body {
     color: #e0dbdb;
     font-size: 35px;
     align-content: center;
+}
+#time-icon {
+    margin-left: px;
+}
+
+.singer-name {
+    margin-left: 36px;
+    font-size: 14px;
 }
