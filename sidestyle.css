@@ -1,0 +1,42 @@
+body {
+  background: #f5f6fa;
+}
+
+.wrapper .sidebar {
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  color: #fff;
+  height: 700px;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+.create .bi {
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+}
+.heart .bi {
+  color: #fff;
+  background: rgb(82, 144, 222);
+  background: linear-gradient(
+    180deg,
+    rgba(82, 144, 222, 1) 20%,
+    rgba(140, 182, 233, 1) 46%,
+    rgba(167, 199, 238, 1) 100%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 5px;
+}
+.p-lists {
+  line-height: 8px;
+  font-size: 12px;
+}
+
+.scroll-content {
+  /* width: 5px;
+  height: 10 px; */
+  overflow-y: scroll;
+}
