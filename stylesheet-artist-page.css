@@ -35,13 +35,12 @@ tr, th {
 }
 
 .jumbotron {
-    background-image: url(https://whiplash.net/imagens_promo/queen_rir_ps.jpg);
+    background-image: url(https://whiplash.net/imagens_promo/queen_bohemian.jpg);
     min-height: 100px;
     margin-bottom: 0;
-/*     margin-right: 15px;
-    margin-left: -15px; */
     padding-right: 0;
     padding-left: 0;
+    border-radius: 0rem;
 
     }
 
@@ -123,15 +122,23 @@ background-color: rgb(24, 24, 24);
 .inner-container-artist-pick {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 
 .table-cover-picture {
     max-height: 50px;
+    cursor: pointer;
 }
 
 .table td, .table th {
     vertical-align: baseline;
+    cursor: pointer;
+}
+
+td:hover, tr:hover {
+    background-color: rgb(65, 63, 63);
+    
 }
 
 .soundwave-icon {
@@ -263,6 +270,7 @@ body > div > div.sidebar.pl-3 > div.d-flex.flex-column > div > span {
     left: 0;
     right: 0;
     color: white;
+    
 }
 footer img {
     height: 100px;
@@ -270,6 +278,7 @@ footer img {
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 6px;
+    cursor: pointer;
 }
 .p-song-name {
     font-size: .9em;
@@ -283,37 +292,48 @@ footer img {
 .main-progress {
     height: 20%;
     width: 100%;
+    cursor:grab;
 }
 .bi-play-circle {
     font-size: 3em;
+    cursor: pointer;
 }
 .volume-progress {
     height: 5%;
     width: 25%;
+    cursor: grab;
 }
 .bi-shuffle {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .bi-skip-backward {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .bi-skip-forward {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .bi-arrow-repeat {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .bi-heart {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .bi-image {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .bi-list {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .bi-tv {
     font-size: 1.5em;
+    cursor: pointer;
 }
 .bi-volume-up {
     font-size: 1.5em;
@@ -346,10 +366,13 @@ footer img {
     background-color: rgb(59, 59, 59);
     border-radius: 50%;
     cursor: pointer;    
+    padding-right: 3px;
+    padding-left: 3px;
 }
 
-
-
+.arrow2 {
+    margin-left: 0.6em;
+}
 
 
 
