@@ -1,18 +1,15 @@
 body {
     background: rgb(44, 44, 44);
+    height: 200vh
 }
 .first-section {
     font-size: .7em;
 
 }
 .second-section-card {
-    font-size: .7em;
     background:rgb(44, 44, 44);
-    min-height: 300px;
-    max-height: 300px;
-}
-card .h5 {
-    font-size: .7em;
+    min-height: 244px;
+    max-height: 244px;
 }
 .see-all-btn {
     background: transparent;
@@ -48,13 +45,35 @@ card .h5 {
     background: rgb(29, 29, 29);
     color: white;
 }
+.card-body-section1 p {
+    margin-left: -50px;
+}
+/* .card-body-section1 img {
+    
+} */
 .card-body-section2 {
     color: white;
-    background:rgb(29, 29, 29)
+    background:rgb(29, 29, 29);
+    font-size: .7em;
+}
+.card-body-section2 p {
+    color: rgb(177, 174, 174);
+    font-size: 1.2em;
+}
+.card-body-section2 h5 {
+    font-size: 1.2em;
 }
 .card-body-section3 {
     color: white;
-    background:rgb(29, 29, 29)
+    background:rgb(29, 29, 29);
+    font-size: .7em;
+}
+.card-body-section3 p {
+    color: rgb(177, 174, 174);
+    font-size: 1.2em;
+}
+.card-body-section3 h5 {
+    font-size: 1.2em;
 }
 .img-second-section {
     padding: 12px;
@@ -68,7 +87,7 @@ card .h5 {
 .card {
     border: 0px;
     background-color: rgb(29, 29, 29);
-    text-overflow: var("...");
+    word-wrap: break-word;
     overflow: hidden;
 }
 .container-fluid {
@@ -79,9 +98,10 @@ card .h5 {
     border-radius: 50%;
 }
 .third-section-card {
-    min-height: 300px;
-    max-height: 300px;
+    min-height: 244px;
+    max-height: 244px;
+    font-size: .9em;
 }
-main {
+/* main {
     padding-left: 16em;
-}
+} */
