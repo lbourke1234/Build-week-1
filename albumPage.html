@@ -13,6 +13,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="albumPage.css" />
+        <link rel="stylesheet" href="footer.css" />
         <title>Spotify Album Page</title>
     </head>
     <body>
@@ -96,6 +97,12 @@
                                             ><p>It is road stewart</p></a
                                         >
                                     </div>
+<<<<<<< Updated upstream
+=======
+                                </div>
+                                <hr class="hr-nav" />
+                                <div class="">
+>>>>>>> Stashed changes
                                     <div class="links-small-nav">
                                         <a href="#"
                                             ><p>
@@ -201,8 +208,8 @@
                     <div class="col-1 mt-4 ml-3">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
+                            width="60"
+                            height="60"
                             fill="currentColor"
                             class="bi bi-play-circle-fill"
                             viewBox="0 0 16 16"
@@ -212,11 +219,11 @@
                             />
                         </svg>
                     </div>
-                    <div class="col-1 mt-4 ml-3">
+                    <div id="page-heart-icon" class="col-1 mt-4 ml-3">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
+                            width="30"
+                            height="30"
                             fill="currentColor"
                             class="bi bi-heart"
                             viewBox="0 0 16 16"
@@ -227,11 +234,11 @@
                             />
                         </svg>
                     </div>
-                    <div class="col-1 mt-4 ml-3">
+                    <div id="page-dots-icon" class="col-1 mt-4 ml-3">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
+                            width="25"
+                            height="25"
                             fill="currentColor"
                             class="bi bi-three-dots"
                             viewBox="0 0 16 16"
@@ -249,7 +256,9 @@
             <div class="container">
                 <div class="row ml-3">
                     <div class="col-11 justify-content-start">
-                        <span class="ml-2" class="title-song"># Title</span>
+                        <span class="ml-2" class="title-song"
+                            ><span class="hashtag-title">#</span> TITLE</span
+                        >
                     </div>
                     <div
                         id="time-icon"
@@ -283,7 +292,7 @@
                 <div class="row">
                     <div class="col-5">
                         <div class="ml-3 pb-4">
-                            1
+                            <span class="track-num">1.</span>
                             <span class="ml-4"
                                 ><strong>20th century fox Fanfare</strong
                                 ><br /><span class="singer-name"
@@ -292,7 +301,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            2
+                            <span class="track-num">2.</span>
                             <span class="ml-4"
                                 ><strong>Somebody To Love</strong><br /><span
                                     class="singer-name"
@@ -301,7 +310,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            3
+                            <span class="track-num">3.</span>
                             <span class="ml-4"
                                 ><strong>Doing All Right- ...Revisited</strong
                                 ><br /><span class="singer-name"
@@ -310,7 +319,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            4
+                            <span class="track-num">4.</span>
                             <span class="ml-4"
                                 ><strong
                                     >Keep Yourself Alive - Live At The
@@ -321,7 +330,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            5
+                            <span class="track-num">5.</span>
                             <span class="ml-4"
                                 ><strong>Killer Queen</strong><br /><span
                                     class="singer-name"
@@ -330,7 +339,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            6
+                            <span class="track-num">6.</span>
                             <span class="ml-4"
                                 ><strong
                                     >Fat Bottomed Girls - Live In Paris</strong
@@ -340,7 +349,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            7
+                            <span class="track-num">7.</span>
                             <span class="ml-4"
                                 ><strong>Bohemain Rhaposdy</strong><br /><span
                                     class="singer-name"
@@ -349,7 +358,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            8
+                            <span class="track-num">8.</span>
                             <span class="ml-4"
                                 ><strong
                                     >Now I'm Here - Live At The Hammersmith
@@ -360,7 +369,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            9
+                            <span class="track-num">9.</span>
                             <span class="ml-4"
                                 ><strong>Creazy Little Thing Called Love</strong
                                 ><br /><span class="singer-name"
@@ -369,7 +378,7 @@
                             >
                         </div>
                         <div class="ml-3 pb-4">
-                            10
+                            <span class="track-num">10.</span>
                             <span class="ml-4"
                                 ><strong>Midnigth protocol</strong><br /><span
                                     class="singer-name"
@@ -392,6 +401,111 @@
                         <div class="mb-4 ml-3 pb-5">2:43</div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="footer-player">
+            <footer>
+                <div class="container-fluid footer">
+                    <div class="row">
+                        <div
+                            class="col-4 d-flex justify-content-center align-items-center"
+                        >
+                            <div class="row">
+                                <div class="col-3">
+                                    <img
+                                        src="https://picsum.photos/200/300"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="col-6">
+                                    <div class="row d-flex flex-column">
+                                        <div class="col-12">
+                                            <p class="pl-4 p-song-name">
+                                                Another One Bites The Dust -
+                                                Remastered 2011
+                                            </p>
+                                        </div>
+                                        <div class="col-12 pl-4">
+                                            <p class="pl-4 p-artist-name">
+                                                Queen
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex align-items-center">
+                                    <i class="bi bi-heart pr-4"></i>
+                                    <i class="bi bi-image"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <div
+                                    class="col d-flex justify-content-center mt-4 align-items-center"
+                                >
+                                    <i class="bi bi-shuffle"></i>
+                                    <i class="bi bi-skip-backward ml-3"></i>
+                                    <i class="bi bi-play-circle mx-3"></i>
+                                    <i class="bi bi-skip-forward mr-3"></i>
+                                    <i class="bi bi-arrow-repeat"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex align-items-center pb-2">
+                                    <span>0.12</span>
+                                    <progress
+                                        class="main-progress m-3"
+                                        id="progress"
+                                        value="0"
+                                        min="0"
+                                    >
+                                        <span id="progress-bar"></span>
+                                    </progress>
+                                    <span>3.34</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-4 d-flex justify-content-end align-items-center"
+                        >
+                            <i class="bi bi-list pr-4"></i>
+                            <i class="bi bi-tv pr-4"></i>
+                            <i class="bi bi-volume-up pr-4"></i>
+                            <progress
+                                class="volume-progress"
+                                id="progress"
+                                value="0"
+                                min="0"
+                            >
+                                <span id="progress-bar"></span>
+                            </progress>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div id="video-controls" class="controls" data-state="hidden">
+                <button id="playpause" type="button" data-state="play">
+                    Play/Pause
+                </button>
+                <button id="stop" type="button" data-state="stop">Stop</button>
+                <div class="progress">
+                    <progress id="progress" value="0" min="0">
+                        <span id="progress-bar"></span>
+                    </progress>
+                </div>
+                <button id="mute" type="button" data-state="mute">
+                    Mute/Unmute
+                </button>
+                <button id="volinc" type="button" data-state="volup">
+                    Vol+
+                </button>
+                <button id="voldec" type="button" data-state="voldown">
+                    Vol-
+                </button>
+                <button id="fs" type="button" data-state="go-fullscreen">
+                    Fullscreen
+                </button>
             </div>
         </section>
 
