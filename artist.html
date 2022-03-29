@@ -16,33 +16,34 @@
       crossorigin="anonymous"
     />
 
-    <title>Album page</title>
-    <link rel="stylesheet" href="stylesheet-album-page.css" />
+    <title>Artist page</title>
+    <link rel="stylesheet" href="stylesheet-artist-page.css" />
   </head>
   <body>
     <!-- Wrapper  -->
 
-    <!--Top menu -->
     <!-- Wrapper -->
     <div class="wrapper d-flex">
+
+      <!-- Sidebar -->
       <div class="sidebar pl-3">
         <img src="./img/Spotify_Logo_CMYK_White.png" height="38" alt="" />
 
         <div class="d-flex flex-column">
           <div class="mt-2">
-            <i class="bi bi-house-fill"></i> <span>Home</span>
+            <i class="bi bi-house-fill mr-2"></i> <span>Home</span>
           </div>
           <div class="mt-2">
-            <i class="bi bi-search"></i> <span>Search</span>
+            <i class="bi bi-search mr-2"></i> <span>Search</span>
           </div>
           <div class="mt-2">
-            <i class="bi bi-collection-fill"></i> <span>Library</span>
+            <i class="bi bi-collection-fill mr-2"></i> <span>Library</span>
           </div>
           <div class="mt-4 create">
-            <i class="bi bi-plus-lg"></i> <span>Create playlist</span>
+            <i class="bi bi-plus-lg mr-2"></i> <span>Create playlist</span>
           </div>
           <div class="mt-3 heart">
-            <i class="bi bi-heart-fill"></i> <span>Liked songs</span>
+            <i class="bi bi-heart-fill mr-2"></i> <span>Liked songs</span>
           </div>
         </div>
         <hr />
@@ -73,60 +74,52 @@
         </div>
       </div>
 
-      <!-- End Wrapper -->
 
-      <div class="all-except-sidebar">
-        <!-- Jumbotron start -->
 
-        <div class="container-fluid">
-          <div class="row">
-            <div class="jumbotron col-12">
-              <div class="inner-container-jumbotron">
-                <p>
-                  <i class="bi bi-patch-check-fill"></i>
-                  Verified Artist
-                </p>
-                <h1 class="display-4">Queen</h1>
-                <p class="lead monthly-listeners-text">
-                  37,120,733 monthly listeners
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- This container contains everything except the Sidebar and the Footer -->
+ <div class="all-except-sidebar">
 
-        <!-- END : Jumbotron  -->
+    <!-- Jumbotron and Nav container start -->
+      <div class="container-fluid">
+                  <!-- Jumbotron -->
+                  <div class="container-fluid container-top-with-nav">
+                          <div class="row">
+                            <div class="jumbotron col-12">
+                              <div class="inner-container-jumbotron">
+                                <p>
+                                  <i class="bi bi-patch-check-fill"></i>
+                                  Verified Artist
+                                </p>
+                                <h1 class="display-4">Queen</h1>
+                                <p class="lead monthly-listeners-text">
+                                  37,120,733 monthly listeners
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                            <!-- The Nav bar -->
+                          <div class="arrows">
+                            <i class="arrow1 bi bi-chevron-left text-white"></i>
+                            <i class="arrow2 bi bi-chevron-right text-white"></i>
+                        </div>
+                        <div class="navbar-col profile-picture-button">
+                           <div class="">
+                              <div class="profile-picture-dropdown d-flex">
+<!--                                 <i class="bi bi-person-circle pr-3 text-white"></i>
+ -->                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="" class="profile-picture-top-bar">
+                                <span class="pr-3 text-white">Diego Ziba Ba..</span>
+                                <i class="bi bi-caret-down-fill"></i>
+                              </div>
+                             </div>
 
-        <!--     top transparent NAV  -->
+                             </div>
+                        </div>
+         </div>
 
-        <div class="container top-navbar">
-          <ul class="nav d-flex">
-            <div class="back-forth-arrows d-flex">
-              <li class="nav-item">
-                <a class="nav-link active" href="#"
-                  ><i class="bi bi-chevron-compact-left text-white"></i
-                ></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><i class="bi bi-chevron-compact-right text-white"></i
-                ></a>
-              </li>
-            </div>
 
-            <div class="profile-picture-dropdown d-flex">
-              <i class="bi bi-person-circle pr-3 text-white"></i>
-              <span class="pr-3 text-white">Diego Ziba Ba..</span>
-              <i class="bi bi-caret-down-fill"></i>
-            </div>
-          </ul>
-        </div>
+         <!--     The "Navigation" section with the Play/Stop button  -->
 
-        <!-- END - Transparent NAV -->
-
-        <!--     The "Navigation" section with the Play/Stop button  -->
-
-        <div class="container-fluid container-play-stop-button">
+         <div class="container-fluid container-play-stop-button">
           <ul class="nav">
             <div class="play-follow-buttons">
               <i class="bi bi-play-circle-fill"></i>
@@ -243,6 +236,10 @@
         </div>
         <!-- END : Table section -->
       </div>
+    
+
+</div> 
+    </div> 
       <footer>
         <div class="container-fluid footer">
           <div class="row">
