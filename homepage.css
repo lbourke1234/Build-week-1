@@ -1,0 +1,84 @@
+body {
+    background: rgb(44, 44, 44);
+}
+.first-section {
+    font-size: .7em;
+
+}
+.second-section-card {
+    font-size: .7em;
+    background:rgb(44, 44, 44);
+    min-height: 300px;
+    max-height: 300px;
+}
+card .h5 {
+    font-size: .7em;
+}
+.see-all-btn {
+    background: transparent;
+    border-color: transparent;
+}
+.see-all-btn-col {
+    display: flex;
+    justify-content: end;
+}
+.navbar-col {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.navbar-btn {
+    border-radius: 50px;
+    background:rgb(2, 2, 2);
+    border-color:rgb(2, 2, 2);
+}
+.first-section-img {
+    height: 50px;
+    width: 50px;
+    /* margin-bottom: 10px; */
+}
+.row-remove-margin {
+    margin-bottom: -8px;
+    margin-left: -1px;
+    margin-top: -1px;
+    margin-right: -1px;
+    /* border-radius: 30px */
+}
+.card-body-section1 {
+    background: rgb(29, 29, 29);
+    color: white;
+}
+.card-body-section2 {
+    color: white;
+    background:rgb(29, 29, 29)
+}
+.card-body-section3 {
+    color: white;
+    background:rgb(29, 29, 29)
+}
+.img-second-section {
+    padding: 12px;
+    background: rgb(29, 29, 29)
+}
+.img-third-section {
+    padding: 12px;
+    background:rgb(29, 29, 29);
+    border-radius: 36px
+}
+.card {
+    border: 0px;
+    background-color: rgb(29, 29, 29);
+    text-overflow: var("...");
+    overflow: hidden;
+}
+.container-fluid {
+    padding-left: 42px;
+    padding-right: 42px;
+}
+.rounded-pic {
+    border-radius: 50%;
+}
+.third-section-card {
+    min-height: 300px;
+    max-height: 300px;
+}
