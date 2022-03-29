@@ -28,24 +28,59 @@ tr, th {
 
 .profile-picture-dropdown {
     background-color: rgba(0, 0, 0, .7);
-    padding-right: 0.7em;
-    padding-left: 0.7em;
+    padding-right: 0.4em;
+    padding-left: 0.1em;
     align-items: center;
     border-radius: 23px;
+    font-size: 0.9em;
 }
+
+.profile-picture-top-bar {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.profile-picture-button > div > div > span {
+    font-size: 0.7em;
+    padding-left: 0.9em;
+    font-weight: 700;
+}
+
+body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.profile-picture-button > div > div > i {
+    font-size: 0.6em;
+}
+
 
 .monthly-listeners-text {
     font-size: 1em;
+    padding-left: 0;
 }
 
 .jumbotron {
     background-image: url(https://whiplash.net/imagens_promo/queen_rir_ps.jpg);
     min-height: 100px;
     margin-bottom: 0;
+/*     margin-right: 15px;
+    margin-left: -15px; */
+    padding-right: 0;
+    padding-left: 0;
+
     }
+
+
+    .container-top-with-nav {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
 
 .inner-container-jumbotron {
    padding-top: 150px;
+   padding-left: 30px;
 }
 
 .verified-logo {
@@ -303,4 +338,53 @@ footer img {
 }
 .bi-volume-up {
     font-size: 1.5em;
+}
+
+
+
+/* Leon navbar  */
+
+.navbar-col {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.navbar-btn {
+    border-radius: 50px;
+    background:rgb(2, 2, 2);
+    border-color:rgb(2, 2, 2);
+}
+
+
+.arrows {
+    position: absolute;
+    top: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+/* .bi-chevron-compact-right::before {
+    background-color: rgb(59, 59, 59);
+    border-radius: 50%;
+} */
+
+.arrow2, .arrow1 {
+    background-color: rgb(59, 59, 59);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+.profile-picture-button { 
+position: absolute;
+top: 0;
+right: 0;
+padding-right: 15px;
+padding-top: 15px;
+cursor: pointer;
 }
