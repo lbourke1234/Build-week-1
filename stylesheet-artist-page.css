@@ -26,33 +26,7 @@ tr, th {
     z-index: 1;
 }
 
-.profile-picture-dropdown {
-    background-color: rgba(0, 0, 0, .7);
-    padding-right: 0.4em;
-    padding-left: 0.1em;
-    align-items: center;
-    border-radius: 23px;
-    font-size: 0.9em;
-}
 
-.profile-picture-top-bar {
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.profile-picture-button > div > div > span {
-    font-size: 0.7em;
-    padding-left: 0.9em;
-    font-weight: 700;
-}
-
-body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.profile-picture-button > div > div > i {
-    font-size: 0.6em;
-}
 
 
 .monthly-listeners-text {
@@ -259,6 +233,11 @@ body > div > div.sidebar.pl-3 > div.d-flex.flex-column > div > span {
     line-height: 8px;
     font-size: 12px;
   }
+
+
+/* End Sidebar  */
+
+
   
   .scroll-content {
     /* width: 5px;
@@ -342,7 +321,7 @@ footer img {
 
 
 
-/* Leon navbar  */
+/* Navbar  */
 
 .navbar-col {
     display: flex;
@@ -355,7 +334,6 @@ footer img {
     border-color:rgb(2, 2, 2);
 }
 
-
 .arrows {
     position: absolute;
     top: 0;
@@ -363,16 +341,11 @@ footer img {
     padding-left: 15px;
 }
 
-/* .bi-chevron-compact-right::before {
-    background-color: rgb(59, 59, 59);
-    border-radius: 50%;
-} */
 
 .arrow2, .arrow1 {
     background-color: rgb(59, 59, 59);
     border-radius: 50%;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 
@@ -387,4 +360,32 @@ right: 0;
 padding-right: 15px;
 padding-top: 15px;
 cursor: pointer;
+}
+
+.profile-picture-dropdown {
+    background-color: rgba(0, 0, 0, .7);
+    padding-right: 0.4em;
+    padding-left: 0.1em;
+    align-items: center;
+    border-radius: 23px;
+    font-size: 0.9em;
+}
+
+.profile-picture-top-bar {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.profile-picture-button > div > div > span {
+    font-size: 0.7em;
+    padding-left: 0.9em;
+    font-weight: 700;
+}
+
+body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.profile-picture-button > div > div > i {
+    font-size: 0.6em;
 }
