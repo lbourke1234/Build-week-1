@@ -71,14 +71,16 @@ body {
 .card-body-section2 h5 {
     font-size: 1.2em;
     overflow: hidden;
-    max-width: 15ch;
+    max-width: 20ch;
+    min-width: 20ch;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 .card-body-section2 p {
     font-size: 1.2em;
     overflow: hidden;
-    max-width: 15ch;
+    max-width: 25ch;
+    min-width: 25ch;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
@@ -90,9 +92,19 @@ body {
 .card-body-section3 p {
     color: rgb(177, 174, 174);
     font-size: 1.2em;
+    overflow: hidden;
+    max-width: 25ch;
+    min-width: 25ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .card-body-section3 h5 {
     font-size: 1.2em;
+    overflow: hidden;
+    max-width: 25ch;
+    min-width: 25ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .img-second-section {
     padding: 20px;
