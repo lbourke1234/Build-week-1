@@ -8,8 +8,6 @@ font-family: 'Gotham Book', sans-serif;
 font-family: 'Gotham Ultra', sans-serif; */
 
 body {
-    //background: rgba(18, 18, 16, 0.611);
-    background: rgb(0, 0, 0);
     background: linear-gradient(
         3deg,
         rgba(0, 0, 0, 1) 7%,
@@ -18,6 +16,12 @@ body {
     );
     color: #ececec;
 }
+.container {
+    margin-right: 0px;
+}
+/*----------------- horizontal nav----------------------*/
+
+/*----------------- hero section -----------------------*/
 
 #album-page-hero {
     background: rgb(217, 2, 216);
@@ -29,10 +33,84 @@ body {
     );
 }
 
+#hero-img {
+    padding: 15px;
+}
+/*------------ side nav-------------------------*/
+#navbar {
+    background: rgb(33, 30, 30);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    color: #fff;
+    height: 80vh;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.p-lists {
+    line-height: 8px;
+    font-size: 12px;
+}
+.links-small-nav {
+    font-weight: 600;
+    opacity: 0.7;
+    margin-left: 5px;
+    text-align: left;
+}
+.links-small-nav p {
+    padding-left: 5px;
+    font-size: 14px;
+    overflow: hidden;
+    width: 90%;
+    text-align: left;
+    margin: 0px;
+}
+.links-small-nav:hover {
+    opacity: 1;
+}
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background-color: #6c757d70;
+}
+
+#installApp-sticky {
+    position: absolute;
+    opacity: 0.7;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    color: white !important;
+}
+
+.scroll-content {
+    /* width: 5px;
+    height: 10 px; */
+    overflow-y: scroll;
+}
+
+/*--------------------- end -------------------*/
+
 #time-icon {
     margin-left: px;
 }
-
+.clock-icon {
+    padding-left: 0px;
+}
+.hr-page {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-right: 30px;
+}
 .title-song {
     padding-left: 25px;
 }
@@ -42,43 +120,21 @@ body {
     font-size: 14px;
 }
 
-.dropdown-menu {
-    background: rgb(18, 18, 16);
-    background: linear-gradient(
-        0deg,
-        rgba(56, 3, 3, 0.555) 0%,
-        rgb(109, 6, 17) 58%,
-        rgba(49, 1, 7, 0.342) 100%
-    );
-}
-
-.dropdown-menu a {
-    color: #e0dbdb;
-}
-
-.dropdown-menu a:hover {
-    background: rgb(18, 18, 16);
-    background: linear-gradient(
-        0deg,
-        rgba(56, 3, 3, 0.555) 0%,
-        rgb(109, 6, 17) 58%,
-        rgba(49, 1, 7, 0.342) 100%
-    );
-    color: #e0dbdb;
-}
-
 .album-page-album-info img {
     height: 22px;
     border-radius: 2rem;
 }
 /*  ------------- play heart ...  ----------------------------*/
+.bi-play-circle-fill {
+    color: #1ed760;
+    font-size: 4em;
+    cursor: pointer;
+}
 .bi-heart {
     color: #e0dbdb;
     font-size: 35px;
     align-content: center;
-}
-#time-icon {
-    margin-left: px;
+    cursor: pointer;
 }
 
 .singer-name {

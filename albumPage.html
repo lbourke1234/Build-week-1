@@ -19,39 +19,136 @@
         <!--------- main content ------------------------------>
 
         <!--------- horizontal navbar------------------------------>
-        <!-- nav bar of page -->
-        <div class="container-fluid pt-3">
-            <div class="row">
-                <div class="col-6">
-                    <i class="bi bi-caret-left text-white"></i>
-                    <i class="bi bi-caret-right text-white"></i>
-                </div>
-                <div class="col-6 navbar-col">
-                    <!-- Example single danger button -->
-                    <div class="btn-group">
-                        <button
-                            type="button"
-                            class="btn btn-danger dropdown-toggle navbar-btn"
-                            data-toggle="dropdown"
-                            aria-expanded="false"
-                        >
-                            Leon Bourke
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#"
-                                >Something else here</a
-                            >
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
+
+        <!-- end horizontal nav -->
+
+        <!-- side nav -->
+        <section>
+            <div class="container">
+                <div id="wrapper" class="d-flex">
+                    <div id="navbar" class="w-15">
+                        <div class="menu-nav">
+                            <div class="links1-nav">
+                                <div id="logo">
+                                    <img
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
+                                        height="38"
+                                        alt=""
+                                    />
+
+                                    <div class="d-flex flex-column">
+                                        <div
+                                            class="nav-upper-link links-nav mt-3"
+                                        >
+                                            <i class="bi bi-house-fill"></i>
+                                            <a href="homepage.html"></a
+                                            ><span>Home</span>
+                                        </div>
+                                        <div
+                                            class="nav-upper-link links-nav mt-3"
+                                        >
+                                            <i class="bi bi-search"></i>
+                                            <a href="search.html"
+                                                ><span>Search</span></a
+                                            >
+                                        </div>
+                                        <div
+                                            class="nav-upper-link links-nav mt-3"
+                                        >
+                                            <i
+                                                class="bi bi-collection-fill"
+                                            ></i>
+                                            <a href="#"></a><span>Library</span>
+                                        </div>
+                                        <div
+                                            class="nav-upper-link links-nav mt-3 create"
+                                        >
+                                            <i class="bi bi-plus-lg"></i>
+                                            <a href="#"></a
+                                            ><span>Create playlist</span>
+                                        </div>
+                                        <div
+                                            class="nav-upper-link links-nav mt-4 heart"
+                                        >
+                                            <i class="bi bi-heart-fill"></i>
+                                            <a href="#"></a
+                                            ><span>Liked songs</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="">
+                                        <div class="links-small-nav">
+                                            <a href="#"
+                                                ><p>Funky Heavy bluesy</p></a
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"
+                                            ><p>Your Top Songs 2020</p></a
+                                        >
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"><p>In love with you</p></a>
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"
+                                            ><p>It is road stewart</p></a
+                                        >
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"
+                                            ><p>
+                                                FRANCHISE it ft.Young Thug...
+                                            </p></a
+                                        >
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"
+                                            ><p>Your Top Songs 2019</p></a
+                                        >
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"><p>Palleggio</p></a>
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"
+                                            ><p>This is Joe Bonamassa</p></a
+                                        >
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"><p>Yacht Rock</p></a>
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"
+                                            ><p>JAZZ in the background</p></a
+                                        >
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"><p>Cafe Chillout</p></a>
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"><p>Soft Pop Hits</p></a>
+                                    </div>
+                                    <div class="links-small-nav">
+                                        <a href="#"><p>Liked Songs</p></a>
+                                    </div>
+
+                                    <div id="installApp-sticky">
+                                        <i
+                                            class="fas fa-arrow-alt-circle-down"
+                                        ></i>
+                                        <span>Install App</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- end of drop-down button -->
-        <!-- end of navbar -->
+        </section>
+
+        <!-- end of side nav -->
 
         <!----------------- album image and tile ------------------>
         <section id="album-page-hero">
@@ -59,6 +156,7 @@
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <img
+                            id="hero-img"
                             src="https://i.pinimg.com/1200x/21/b1/c7/21b1c7f4af7c339fff746041a0e2403f.jpg"
                             class="img-fluid"
                             alt="Hybrid theory album cover"
@@ -66,10 +164,10 @@
                     </div>
                     <div class="col-12 col-md-8">
                         <div
-                            class="d-flex flex-column justify-content-center h-100"
+                            class="d-flex flex-column justify-content-end h-100"
                         >
                             <small>ALBUM</small>
-                            <h4>Bohemain Rhapsody(Original Soundtrack)</h4>
+                            <h1>Bohemain Rhapsody(Original Soundtrack)</h1>
                             <div>
                                 <p>
                                     <small
@@ -96,6 +194,7 @@
         </section>
 
         <!----------------- play heart ... ---------------------------->
+
         <section id="play-heart-dots">
             <div class="container">
                 <div class="row">
@@ -145,18 +244,16 @@
                 </div>
             </div>
         </section>
-
+        <!------- title and clock--------------->
         <section id="track-list-icons">
             <div class="container">
                 <div class="row ml-3">
-                    <div class="col-10 justify-content-start">
-                        <span class="ml-2">
-                            #<span class="title-song ml-2"> Title</span></span
-                        >
+                    <div class="col-11 justify-content-start">
+                        <span class="ml-2" class="title-song"># Title</span>
                     </div>
                     <div
                         id="time-icon"
-                        class="col-2 album-col justify-content-end"
+                        class="col-1 album-col justify-content-end"
                     >
                         <span class="clock-icon">
                             <svg
@@ -177,14 +274,15 @@
                         </span>
                     </div>
                 </div>
+                <hr class="hr-page" />
             </div>
         </section>
-        <hr />
+
         <section id="album-track-list">
             <div class="container">
                 <div class="row">
                     <div class="col-5">
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             1
                             <span class="ml-4"
                                 ><strong>20th century fox Fanfare</strong
@@ -193,7 +291,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             2
                             <span class="ml-4"
                                 ><strong>Somebody To Love</strong><br /><span
@@ -202,7 +300,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             3
                             <span class="ml-4"
                                 ><strong>Doing All Right- ...Revisited</strong
@@ -211,7 +309,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             4
                             <span class="ml-4"
                                 ><strong
@@ -222,7 +320,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             5
                             <span class="ml-4"
                                 ><strong>Killer Queen</strong><br /><span
@@ -231,7 +329,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             6
                             <span class="ml-4"
                                 ><strong
@@ -241,7 +339,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             7
                             <span class="ml-4"
                                 ><strong>Bohemain Rhaposdy</strong><br /><span
@@ -250,7 +348,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             8
                             <span class="ml-4"
                                 ><strong
@@ -261,7 +359,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             9
                             <span class="ml-4"
                                 ><strong>Creazy Little Thing Called Love</strong
@@ -270,7 +368,7 @@
                                 ></span
                             >
                         </div>
-                        <div class="mb-3 ml-3 pb-4">
+                        <div class="ml-3 pb-4">
                             10
                             <span class="ml-4"
                                 ><strong>Midnigth protocol</strong><br /><span
@@ -280,17 +378,17 @@
                             >
                         </div>
                     </div>
-                    <div id="blank-space" class="col-5"></div>
-                    <div id="track-times" class="col-2">
-                        <div class="mb-3 ml-3 pb-5">2:56</div>
-                        <div class="mb-3 ml-3 pb-5">4:56</div>
-                        <div class="mb-3 ml-3 pb-5">3:16</div>
-                        <div class="mb-3 ml-3 pb-5">3:56</div>
-                        <div class="mb-3 ml-3 pb-5">2:59</div>
-                        <div class="mb-3 ml-3 pb-5">4:37</div>
-                        <div class="mb-3 ml-3 pb-5">5:56</div>
-                        <div class="mb-3 ml-3 pb-5">4:25</div>
-                        <div class="mb-3 ml-3 pb-5">4:25</div>
+                    <div id="blank-space" class="col-6"></div>
+                    <div id="track-times" class="col-1">
+                        <div class="ml-3 pb-5">2:56</div>
+                        <div class="ml-3 pb-5">4:56</div>
+                        <div class="ml-3 pb-5">3:16</div>
+                        <div class="ml-3 pb-5">3:56</div>
+                        <div class="ml-3 pb-5">2:59</div>
+                        <div class="ml-3 pb-5">4:37</div>
+                        <div class="ml-3 pb-5">5:56</div>
+                        <div class="ml-3 pb-5">4:25</div>
+                        <div class="ml-3 pb-5">4:25</div>
                         <div class="mb-4 ml-3 pb-5">2:43</div>
                     </div>
                 </div>
