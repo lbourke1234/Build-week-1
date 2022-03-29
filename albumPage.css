@@ -311,3 +311,12 @@ footer img {
 .bi-volume-up {
     font-size: 1.5em;
 }
+#footer-pic-icon {
+    margin-left: 15px;
+}
+#footer-shuffle-icon {
+    margin-right: 15px;
+}
+#footer-repeat-icon {
+    margin-left: 15px;
+}
