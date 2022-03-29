@@ -1,18 +1,18 @@
 body {
     background: rgb(44, 44, 44);
+    /* height: 200vh */
 }
 .first-section {
-    font-size: .7em;
-
+    font-size: 1.2em;
+    text-align: left;
+}
+.first-section p {
+    padding-top: 12px;
 }
 .second-section-card {
-    font-size: .7em;
     background:rgb(44, 44, 44);
     min-height: 300px;
     max-height: 300px;
-}
-card .h5 {
-    font-size: .7em;
 }
 .see-all-btn {
     background: transparent;
@@ -33,8 +33,8 @@ card .h5 {
     border-color:rgb(2, 2, 2);
 }
 .first-section-img {
-    height: 50px;
-    width: 50px;
+    width: 100%;
+    height: 5vw;
     /* margin-bottom: 10px; */
 }
 .row-remove-margin {
@@ -48,28 +48,72 @@ card .h5 {
     background: rgb(29, 29, 29);
     color: white;
 }
+/* .card-body-section1 p {
+    margin-left: -50px;
+} */
+/* .card-body-section1 img {
+    
+} */
 .card-body-section2 {
     color: white;
-    background:rgb(29, 29, 29)
+    background:rgb(29, 29, 29);
+    font-size: .7em;
+}
+.card-body-section2 p {
+    color: rgb(177, 174, 174);
+    font-size: 1.2em;
+    /* overflow: hidden; */
+    /* max-width: 30ch; */
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+    
+}
+.card-body-section2 h5 {
+    font-size: 1.2em;
+    overflow: hidden;
+    max-width: 15ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card-body-section2 p {
+    font-size: 1.2em;
+    overflow: hidden;
+    max-width: 15ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .card-body-section3 {
     color: white;
-    background:rgb(29, 29, 29)
+    background:rgb(29, 29, 29);
+    font-size: .7em;
+}
+.card-body-section3 p {
+    color: rgb(177, 174, 174);
+    font-size: 1.2em;
+}
+.card-body-section3 h5 {
+    font-size: 1.2em;
 }
 .img-second-section {
-    padding: 12px;
-    background: rgb(29, 29, 29)
+    padding: 20px;
+    background: rgb(29, 29, 29);
+    /* height: 120px;
+    width: 120px; */
+    width: 100%;
+    height: 9vw;
+    /* object-fit: cover; */
 }
 .img-third-section {
-    padding: 12px;
+    padding: 20px;
     background:rgb(29, 29, 29);
-    border-radius: 36px
+    border-radius: 36px;
+    width: 100%;
+    height: 9vw;
 }
 .card {
     border: 0px;
     background-color: rgb(29, 29, 29);
-    text-overflow: var("...");
-    overflow: hidden;
+    padding-bottom: 10px;
 }
 .container-fluid {
     padding-left: 42px;
@@ -81,4 +125,265 @@ card .h5 {
 .third-section-card {
     min-height: 300px;
     max-height: 300px;
+    font-size: .9em;
+}
+/* main {
+    padding-left: 16em;
+} */
+.arrow2 {
+    margin-left: 0.6em;
+}
+
+
+
+/* Sidebar  */
+
+.sidebar {
+    background: #000;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 20px 0;
+    min-height: 100vh;
+    /* max-width: 190px; */
+    min-width: 18em;
+    padding-right: 15px;
+    cursor: pointer;
+    border-right: solid 4px black;
+    border-bottom: solid 400px rgb(24, 24, 24);
+}
+
+body > div > div.sidebar.pl-3 > div.d-flex.flex-column > div > span {
+    font-size: 1.3em;
+}
+
+
+  body > div > div.sidebar.pl-3 > div.d-flex.flex-column > div:hover {
+    background-color: rgb(65, 63, 63);
+  }
+
+  body > div > div.sidebar.pl-3 > div.p-lists {
+      font-size: 1.2em;
+      color: rgb(93, 94, 95);
+      
+  }
+
+  body > div > div.sidebar.pl-3 > div.p-lists p {
+      margin-bottom: 40px;
+      
+  }
+
+  body > div > div.sidebar.pl-3 > div.p-lists > p, body > div > div.sidebar.pl-3 > div.p-lists > div > p {
+    color: rgb(93, 94, 95);
+    cursor: pointer;
+  }
+
+  body > div > div.sidebar.pl-3 > div.p-lists > div:hover {
+      background-color: rgb(65, 63, 63);
+  }
+
+  body > div > div.sidebar.pl-3 > div.p-lists > p:hover {
+    background-color: rgb(65, 63, 63);
+  }
+
+
+ hr {
+    background-color: rgb(93, 94, 95);
+ } 
+
+  .create .bi {
+    background-color: rgb(148, 150, 151);
+    color: #000;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+  .heart .bi {
+    color: #fff;
+    background: rgb(82, 144, 222);
+    background: linear-gradient(
+      180deg,
+      rgba(82, 144, 222, 1) 20%,
+      rgba(140, 182, 233, 1) 46%,
+      rgba(167, 199, 238, 1) 100%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+  .p-lists {
+    line-height: 8px;
+    font-size: 12px;
+  }
+  
+  .scroll-content {
+    /* width: 5px;
+    height: 10 px; */
+    overflow-y: scroll;
+  }
+
+
+  .all-except-sidebar {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 2;
+  }
+
+  /* nav bar */
+
+  .arrows {
+    position: absolute;
+    top: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+/* .bi-chevron-compact-right::before {
+    background-color: rgb(59, 59, 59);
+    border-radius: 50%;
+} */
+
+.arrow2, .arrow1 {
+    background-color: rgb(59, 59, 59);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.profile-picture-button { 
+position: absolute;
+top: 0;
+right: 0;
+padding-right: 15px;
+padding-top: 15px;
+cursor: pointer;
+}
+
+.profile-picture-top-bar {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.profile-picture-dropdown {
+    background-color: rgba(0, 0, 0, .7);
+    padding-right: 0.4em;
+    padding-left: 0.1em;
+    align-items: center;
+    border-radius: 23px;
+    font-size: 0.9em;
+    margin-right: 42px;
+}
+body > div > div.container-fluid > main > div.container-fluid.pt-3 > div > div.navbar-col.profile-picture-button > div > div > span {
+    font-size: 0.7em;
+    padding-left: 0.9em;
+    font-weight: 700;
+
+}
+body > div > div.container-fluid > main > div.container-fluid.pt-3 > div > i.arrow1.bi.bi-chevron-left.text-white {
+    /* margin-left: 15px; */
+}
+
+body > div > div.container-fluid > main > div.container-fluid.pt-3 > div > div.navbar-col.profile-picture-button > div > div > i {
+    font-size: 0.6em;
+}
+body > div > div.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.profile-picture-dropdown img {
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+.container-fluid {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* footer */
+
+footer {
+    background: rgb(59, 59, 59);
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+footer img {
+    height: 100px;
+    width: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 6px;
+}
+.p-song-name {
+    font-size: .9em;
+    margin-top: 30px;
+}
+.p-artist-name {
+    font-size: .7em;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.main-progress {
+    height: 20%;
+    width: 100%;
+    cursor: grab;
+}
+.bi-play-circle {
+    font-size: 3em;
+}
+.volume-progress {
+    height: 5%;
+    width: 25%;
+    cursor: pointer;
+
+}
+.bi-shuffle {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.bi-skip-backward {
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.bi-skip-forward {
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.bi-arrow-repeat {
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.bi-heart {
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.bi-image {
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.bi-list {
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.bi-tv {
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+.bi-volume-up {
+    font-size: 1.5em;
+    cursor: pointer;
+
 }
