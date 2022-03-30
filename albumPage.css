@@ -1,10 +1,57 @@
-body {
+html::-webkit-scrollbar {
+    width: 0.75vw;
+}
+html::-webkit-scrollbar-thumb {
+    background: rgba(170, 170, 170, 0.871);
+
+    height: 1rem;
+}
+html::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.076);
+    height: 80vh;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: rgba(123, 123, 123, 0.871);
+}
+
+/*----------------- gradients -----------------------*/
+.gradient-container1 {
+    width: 100%;
+    height: 50vh;
+    background: rgb(217, 2, 216);
     background: linear-gradient(
+        45deg,
+        rgba(217, 2, 216, 1) 7%,
+        rgba(116, 39, 167, 1) 38%,
+        rgba(60, 0, 119, 1) 76%
+    );
+}
+.gradient-container2 {
+    width: 100%;
+    height: 100vh;
+    background: rgb(134, 134, 134);
+    background: linear-gradient(
+        180deg,
+        rgba(28, 28, 28, 0.152) 32%,
+        rgba(14, 14, 14, 0.494) 37%,
+        rgba(4, 4, 4, 0.789) 45%,
+        rgba(0, 0, 0, 0.809) 46%,
+        rgba(0, 0, 0, 1.857) 51%,
+        rgba(0, 0, 0, 5.891) 53%,
+        rgba(0, 0, 0, 0.939) 54%,
+        rgb(7, 7, 7) 71%
+    );
+}
+/*----------------- body -----------------------*/
+body {
+    background-color: black;
+    /*background: linear-gradient(
         3deg,
         rgba(0, 0, 0, 1) 7%,
         rgba(0, 0, 0, 1) 38%,
         rgba(0, 0, 0, 0.8827906162464986) 76%
-    );
+    )*/
     color: #ececec;
 }
 .container {
@@ -103,7 +150,7 @@ body {
     cursor: pointer;
 }
 .bi-heart {
-    color: #96587e;
+    color: #b5b5b5;
     font-size: 35px;
     align-content: center;
     cursor: pointer;
@@ -169,4 +216,4 @@ body {
     margin-left: -9px;
 }
 
-/*  ------------- play heart ...  ----------------------------*/
+/*  ------------- scroll bar main  ----------------------------*/
