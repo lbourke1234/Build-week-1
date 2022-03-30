@@ -7,11 +7,13 @@ footer {
     color: white;
 }
 footer img {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 6px;
+    padding-top: 12px;
+    padding-bottom: 2px;
 }
 .p-song-name {
     font-size: .9em;
@@ -19,7 +21,6 @@ footer img {
 }
 .p-artist-name {
     font-size: .7em;
-    margin-left: -10px;
     margin-top: -10px;
 }
 .main-progress {
@@ -27,29 +28,38 @@ footer img {
     width: 100%;
 }
 .bi-play-circle {
-    font-size: 3em;
+    font-size: 2em;
+    margin-bottom: -8px;
+
 }
 .volume-progress {
     height: 5%;
     width: 25%;
 }
 .bi-shuffle {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin-bottom: -10px;
 }
 .bi-skip-backward {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin-bottom: -10px;
+    margin-left: 27px;
 }
 .bi-skip-forward {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin-bottom: -10px;
+    margin-right: 27px;
 }
 .bi-arrow-repeat {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin-bottom: -10px;
+
 }
 .bi-heart {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .bi-image {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .bi-list {
     font-size: 1.5em;
