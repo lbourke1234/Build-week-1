@@ -34,7 +34,20 @@ body {
 }
 
 #hero-img {
-    padding: 15px;
+    box-shadow: 1px 3px 18px 1px black;
+    margin: 15px;
+    height: 185px;
+    width: 185px;
+}
+.album-container {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+#album-page-hero > div > div.row > div.col-12.col-md-9 {
+    margin-left: -10px;
+}
+#album-page-hero > div > div.row > div.col-12.col-md-9 > div {
+    padding-left: 20px;
 }
 /*------------ side nav-------------------------*/
 #navbar {
@@ -111,14 +124,18 @@ body {
 }
 #page-heart-icon {
     padding-top: 20px;
-    padding-left: 23px;
+    padding-left: 0px;
     padding-right: 0px;
 }
 #page-dots-icon {
     padding: 20px 0px 20px 0px;
+    margin-left: -45px;
+}
+#play-heart-dots {
+    padding-left: 30px;
 }
 
-/*--------------------- icons #title clock -------------------*/
+/*---------------------  #title clock -------------------*/
 .hashtag-title {
     margin-right: 1.5rem;
     font-size: 1.2rem;
@@ -134,8 +151,16 @@ body {
     margin-bottom: 2rem;
     margin-right: 30px;
 }
+.track-list-icons {
+    padding-left: 30px;
+}
+
 /*-------------------------- track list -------------------------*/
+.album-track-list {
+    padding-left: 40px;
+}
 .track-num {
+    padding-left: 20px;
     margin-right: 1.5rem;
 }
 .title-song {
@@ -143,17 +168,19 @@ body {
 }
 
 .singer-name {
-    margin-left: 36px;
+    margin-left: 60px;
     font-size: 14px;
+}
+.hashtag-title {
+    margin-left: 20px;
 }
 
 .album-page-album-info img {
     height: 22px;
     border-radius: 2rem;
 }
-/*  ------------- play heart ...  ----------------------------*/
-
-.singer-name {
-    margin-left: 36px;
-    font-size: 14px;
+#midnigth-protocol {
+    margin-left: -9px;
 }
+
+/*  ------------- play heart ...  ----------------------------*/

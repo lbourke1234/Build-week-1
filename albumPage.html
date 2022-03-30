@@ -20,11 +20,10 @@
         <link rel="stylesheet" href="sideNav.css" />
         <link rel="stylesheet" href="topNav.css" />
         <link rel="stylesheet" href="footer.css" />
-        link
+
         <title>Spotify Album Page</title>
     </head>
     <body>
-        <!-- side nav -->
         <div class="wrapper d-flex">
             <div class="sidebar pl-3">
                 <img
@@ -86,9 +85,9 @@
             <!----------------- album image and tile ------------------>
             <main class="wrapper flex-grow-1 pl-2">
                 <section id="album-page-hero">
-                    <div class="container py-5">
+                    <div class="container-fluid album-container">
                         <div class="row">
-                            <div class="col-12 col-md-4">
+                            <div class="col-2">
                                 <img
                                     id="hero-img"
                                     src="https://i.pinimg.com/1200x/21/b1/c7/21b1c7f4af7c339fff746041a0e2403f.jpg"
@@ -96,7 +95,7 @@
                                     alt="Hybrid theory album cover"
                                 />
                             </div>
-                            <div class="col-12 col-md-8">
+                            <div class="col-10">
                                 <div
                                     class="d-flex flex-column justify-content-end h-100"
                                 >
@@ -159,12 +158,12 @@
 
                 <section id="play-heart-dots">
                     <div class="container-fluid">
-                        <div class="row">
+                        <div id="heart-play-dots" class="row">
                             <div id="page-play-icon" class="col-1 mt-4 ml-3">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="60"
-                                    height="60"
+                                    width="50"
+                                    height="50"
                                     fill="currentColor"
                                     class="bi bi-play-circle-fill"
                                     viewBox="0 0 16 16"
@@ -177,8 +176,8 @@
                             <div id="page-heart-icon" class="col-1 mt-4 ml-3">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="30"
-                                    height="30"
+                                    width="25"
+                                    height="25"
                                     fill="currentColor"
                                     class="bi bi-heart"
                                     viewBox="0 0 16 16"
@@ -192,8 +191,8 @@
                             <div id="page-dots-icon" class="col-1 mt-4 ml-3">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    width="25"
-                                    height="25"
+                                    width="20"
+                                    height="20"
                                     fill="currentColor"
                                     class="bi bi-three-dots"
                                     viewBox="0 0 16 16"
@@ -246,7 +245,7 @@
                 <section id="album-track-list">
                     <div class="container-fluid ml-4">
                         <div class="row">
-                            <div class="col-5">
+                            <div id="album-track-list" class="col-5">
                                 <div class="ml-3 pb-4">
                                     <span class="track-num">1.</span>
                                     <span class="ml-4"
@@ -342,7 +341,8 @@
                                 <div class="ml-3 pb-4">
                                     <span class="track-num">10.</span>
                                     <span class="ml-4"
-                                        ><strong>Midnigth protocol</strong
+                                        ><strong id="midnigth-protocol"
+                                            >Midnigth protocol</strong
                                         ><br /><span class="singer-name"
                                             >Queen</span
                                         ></span
