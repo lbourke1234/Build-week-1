@@ -1,0 +1,68 @@
+.sidebar {
+    background: #000;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 20px 0;
+    min-width: 190px;
+    max-width: 190px;
+    padding-right: 15px;
+    cursor: pointer;
+    border-right: solid 4px black;
+    border-bottom: solid 400px rgb(24, 24, 24);
+}
+
+body > div > div.sidebar.pl-3 > div.d-flex.flex-column > div > span {
+    font-size: 0.8em;
+}
+
+body > div > div.sidebar.pl-3 > div.d-flex.flex-column > div:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+body > div > div.sidebar.pl-3 > div.p-lists {
+    font-size: 0.6em;
+    color: rgb(93, 94, 95);
+}
+
+body > div > div.sidebar.pl-3 > div.p-lists > p,
+body > div > div.sidebar.pl-3 > div.p-lists > div > p {
+    color: rgb(93, 94, 95);
+    cursor: pointer;
+}
+
+body > div > div.sidebar.pl-3 > div.p-lists > div:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+body > div > div.sidebar.pl-3 > div.p-lists > p:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+hr {
+    background-color: rgb(93, 94, 95);
+}
+
+.create .bi {
+    background-color: rgb(148, 150, 151);
+    color: #000;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.heart .bi {
+    color: #fff;
+    background: rgb(82, 144, 222);
+    background: linear-gradient(
+        180deg,
+        rgba(82, 144, 222, 1) 20%,
+        rgba(140, 182, 233, 1) 46%,
+        rgba(167, 199, 238, 1) 100%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    padding: 4px 6px;
+    font-size: 10px;
+}
+.p-lists {
+    line-height: 8px;
+    font-size: 12px;
+}
