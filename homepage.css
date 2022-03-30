@@ -4,16 +4,20 @@ body {
 }
 .first-section {
     font-size: 1.2em;
-    text-align: left;
 }
 .first-section p {
     padding-top: 12px;
 }
+.flex-container {
+    display: flex;
+    align-items: center;
+}
 .second-section-card {
     background:rgb(44, 44, 44);
-    min-height: 300px;
-    max-height: 300px;
+    min-height: 370px;
+    max-height: 370px;
 }
+
 .see-all-btn {
     background: transparent;
     border-color: transparent;
@@ -57,54 +61,47 @@ body {
 .card-body-section2 {
     color: white;
     background:rgb(29, 29, 29);
-    font-size: .7em;
 }
 .card-body-section2 p {
     color: rgb(177, 174, 174);
-    font-size: 1.2em;
-    /* overflow: hidden; */
-    /* max-width: 30ch; */
-    /* text-overflow: ellipsis;
-    white-space: nowrap; */
+    font-size: 1.4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     
 }
 .card-body-section2 h5 {
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-weight: 700;
     overflow: hidden;
-    max-width: 20ch;
-    min-width: 20ch;
     text-overflow: ellipsis;
-    white-space: nowrap;
-}
-.card-body-section2 p {
-    font-size: 1.2em;
-    overflow: hidden;
-    max-width: 25ch;
-    min-width: 25ch;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 .card-body-section3 {
     color: white;
     background:rgb(29, 29, 29);
-    font-size: .7em;
 }
 .card-body-section3 p {
     color: rgb(177, 174, 174);
-    font-size: 1.2em;
+    font-size: 1.4em;
     overflow: hidden;
-    max-width: 25ch;
-    min-width: 25ch;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .card-body-section3 h5 {
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-weight: 700;
     overflow: hidden;
-    max-width: 25ch;
-    min-width: 25ch;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 .img-second-section {
     padding: 20px;
@@ -135,13 +132,15 @@ body {
     border-radius: 50%;
 }
 .third-section-card {
-    min-height: 300px;
-    max-height: 300px;
-    font-size: .9em;
+    min-height: 370px;
+    max-height: 370px;
 }
 /* main {
     padding-left: 16em;
 } */
+.arrow1 {
+    margin-left: 15px;
+}
 .arrow2 {
     margin-left: 0.6em;
 }
@@ -294,9 +293,9 @@ body > div > div.container-fluid > main > div.container-fluid.pt-3 > div > div.n
     font-weight: 700;
 
 }
-body > div > div.container-fluid > main > div.container-fluid.pt-3 > div > i.arrow1.bi.bi-chevron-left.text-white {
-    /* margin-left: 15px; */
-}
+/* body > div > div.container-fluid > main > div.container-fluid.pt-3 > div > i.arrow1.bi.bi-chevron-left.text-white 
+    margin-left: 15px;
+ */
 
 body > div > div.container-fluid > main > div.container-fluid.pt-3 > div > div.navbar-col.profile-picture-button > div > div > i {
     font-size: 0.6em;
@@ -306,10 +305,10 @@ body > div > div.container-fluid {
     padding-right: 15px;
 
 }
-.profile-picture-dropdown img {
+/* .profile-picture-dropdown img { */
     /* padding-left: 15px;
     padding-right: 15px; */
-}
+/* } */
 .container-fluid {
     margin-left: -10px;
     margin-right: -10px;
@@ -398,4 +397,13 @@ footer img {
     font-size: 1.5em;
     cursor: pointer;
 
+}
+/* .bi-house-fill 
+
+
+.bi-collection 
+    
+ */
+.wrapper {
+    overflow: hidden;
 }
