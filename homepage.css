@@ -228,10 +228,11 @@ body {
   /* nav bar */
 
   .arrows {
-    position: absolute;
+    position: fixed;
     top: 0;
     padding-top: 15px;
     padding-left: 15px;
+    z-index: 5;
 }
 
 /* .bi-chevron-compact-right::before {
@@ -247,12 +248,14 @@ body {
 }
 
 .profile-picture-button { 
-position: absolute;
+position: fixed;
 top: 0;
 right: 0;
 padding-right: 15px;
 padding-top: 15px;
 cursor: pointer;
+opacity:0.8;
+z-index: 5;
 }
 
 .profile-picture-top-bar {
