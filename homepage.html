@@ -15,10 +15,63 @@
   <body>
 
 
-    <div class="wrapper d-flex">
                  <!-- Sidebar -->
 
-                <div class="sidebar pl-3">
+
+                 <!-- Wrapper -->
+    <div class="wrapper d-flex">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <img src="./img/Spotify_Logo_CMYK_White.png" height="38" alt="" />
+  
+          <div class="d-flex flex-column">
+            <div class="mt-4">
+              <i class="bi bi-house-fill mr-3"></i> <span>Home</span>
+            </div>
+            <div class="mt-2">
+              <i class="bi bi-search mr-3"></i> <span>Search</span>
+            </div>
+            <div class="mt-2">
+              <i class="bi bi-collection-fill mr-3"></i> <span>Library</span>
+            </div>
+            <div class="mt-5 create">
+              <i class="bi bi-plus-lg mr-3"></i> <span>Create Playlist</span>
+            </div>
+            <div class="mt-3 heart">
+              <i class="bi bi-heart-fill mr-3"></i> <span>Liked Songs</span>
+            </div>
+          </div>
+          <hr />
+        <!--         <div class="list-with-scroll-bar"> -->
+          <div class="p-lists">
+            <p>Funky Heavy Blussy</p>
+            <p>Your top songs 2020</p>
+            <p>In love with you- Erylah B...</p>
+            <p>This is Rod Stewart</p>
+            <p>FRANCHISE Ft Young Thug...</p>
+            <p>Your top songs 2019</p>
+            <p>Jazz Classics</p>
+            <p>Your Top Songs 2018</p>
+            <p>New Playlist</p>
+            <p>Metal Ballads</p>
+            <p>This is Opeth</p>
+            <div class="d-flex justify-content-between">
+              <p>Jack 30th Birthday</p>
+              <i class="bi bi-people"></i>
+            </div>
+            <div class="d-flex justify-content-between">
+              <p>Jack 30th Birthday Party 2</p>
+              <i class="bi bi-people"></i>
+            </div>
+  
+            <p>Jun19</p>
+            <p>This is Joe Banana</p>
+            <p><i class="bi bi-arrow-down-circle-fill"></i> Install App</p>
+          </div>
+        <!-- </div> -->
+        </div>
+                <!-- <div class="sidebar pl-3">
                     <img src="./img/Spotify_Logo_CMYK_White.png" height="38" alt="" />
 
                         <div class="d-flex flex-column">
@@ -64,7 +117,7 @@
                         <p>This is Joe Banana</p>
                         <p><i class="bi bi-arrow-down-circle-fill"></i> Install App</p>
                     </div>
-                </div>
+                </div> -->
             
             <div class="container-fluid">
             <main>
@@ -72,14 +125,16 @@
                 <div class="container-fluid pt-3">
                     <div class="row">
                         <!-- <div class="col-6"> -->
+                        <div class="arrows">    
                             <i class="arrow1 bi bi-chevron-left text-white"></i>
                             <i class="arrow2 bi bi-chevron-right text-white"></i>
+                        </div>    
                         <!-- </div> -->
                         <div class="navbar-col profile-picture-button">
                             <div class="">
                                <div class="profile-picture-dropdown d-flex">
  <!--                                 <i class="bi bi-person-circle pr-3 text-white"></i>
-  -->                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="" class="profile-picture-top-bar">
+  -->                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="" class="profile-picture-top-bar" alt="" class="profile-picture-top-bar">
                                  <span class="pr-3 text-white">Diego Ziba Ba..</span>
                                  <i class="bi bi-caret-down-fill"></i>
                                </div>
@@ -105,7 +160,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FOz8AAOSwnIleltAL%2Fs-l640.jpg&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">Burning Jazz-rock Fusion</p>
                                         </div>
@@ -119,7 +174,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fspotify-line-ui-kit%2F100%2Fsave-to-your-liked-songs-256.png&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">Liked Songs </p>
                                         </div>
@@ -133,7 +188,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67706c0000bebb72e10f5c8fa9f6a883f63178&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">Metal Balads</p>
                                         </div>
@@ -147,7 +202,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.gnF_lqUxeTMWQsgv0VNxKAHaHa%26pid%3DApi&f=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">Post Human Survival</p>
                                         </div>
@@ -161,7 +216,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.syracuse.com%2Fresizer%2FQXGrmhR-2eGWMOvnjgisdy3w-vE%3D%2F1280x0%2Fsmart%2Fadvancelocal-adapter-image-uploads.s3.amazonaws.com%2Fimage.syracuse.com%2Fhome%2Fsyr-media%2Fwidth2048%2Fimg%2Fentertainment%2Fphoto%2F022809bonamassa11481jpg-d6723dbde1989cd9.jpg&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">This is Joe Bonamassa</p>
                                         </div>
@@ -177,7 +232,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgur.com%2FKv2zIK0.png&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">Midian</p>
                                         </div>
@@ -191,7 +246,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-NHOLHNO4nj0%2FThRi6H63xCI%2FAAAAAAAAAN8%2FEk7j_jwu_iE%2Fs1600%2Fninphetamine.jpg&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">Nymphetamine</p>
                                         </div>
@@ -205,7 +260,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.upsetmagazine.com%2Fimages%2Farticle%2FArtist-Images%2FB%2FBring-Me-The-Horizon%2FBring-Me-The-Horizon-Amo_190124_121835.jpg&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">amo</p>
                                         </div>
@@ -219,7 +274,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.sndcdn.com%2Favatars-000654264044-j4nj68-t500x500.jpg&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">LE BASK</p>
                                         </div>
@@ -233,7 +288,7 @@
                                     <div class="col-4">
                                     <img class="first-section-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fen.metal-tracker.com%2Ftorrents%2Fimages%2F2726010.jpg&f=1&nofb=1" alt="...">
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-8 flex-container">
                                         <div class="card-body card-body-section1">
                                             <p class="card-text">Opeth</p>
                                         </div>
@@ -264,7 +319,7 @@
                                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FOz8AAOSwnIleltAL%2Fs-l640.jpg&f=1&nofb=1" class="card-img-top img-second-section" alt="...">
                                 <div class="card-body card-body-section2">
                                     <h5 class="card-title">Burning Jazz-rock Fusion</h5>
-                                    <p class="card-text">You'll find fiery, modern, groovy, jazzy music here.</p>
+                                    <p class="card-text">You'll find fiery, modern, groovy, jazzy music here. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In aspernatur, nesciunt asperiores accusantium animi reprehenderit, quasi quia officiis sunt hic beatae, necessitatibus ducimus sed? Eaque atque quaerat dignissimos assumenda corporis!</p>
                                 </div>
                             </div>
                         </div>
@@ -291,7 +346,7 @@
                                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fspotify-line-ui-kit%2F100%2Fsave-to-your-liked-songs-256.png&f=1&nofb=1" class="card-img-top img-second-section" alt="...">
                                 <div class="card-body card-body-section2">
                                     <h5 class="card-title">Liked Songs</h5>
-                                    <p class="card-text">A collection of the best metal ballads.</p>
+                                    <p class="card-text"></p>
                                 </div>
                             </div>
                         </div>
@@ -429,7 +484,7 @@
 </div>
         <!-- footer -->
 
-        <footer>
+        <!-- <footer>
             <div class="container-fluid footer">
                 <div class="row">
                     <div class="col-4 d-flex justify-content-center align-items-center">
@@ -483,8 +538,74 @@
                     </div>
                 </div>
             </div>
-        </footer>
-    
+        </footer> -->
+        
+        <footer>
+            <div class="container-fluid footer">
+              <div class="row">
+                <div class="col-4 d-flex align-items-center">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-2">
+                      <img src="https://picsum.photos/200/300" alt="" /> 
+                    </div>
+                    <div class="col-9">
+                      <div class="row d-flex flex-column">
+                        <div class="col-12">
+                          <p class="pl-4 p-song-name">
+                            Another One Bites The Dust - Remastered 2011
+                          </p>
+                        </div>
+                        <div class="row d-flex flex-column">
+                        <div class="col-12">
+                          <p class="p-artist-name">Queen</p>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-1 d-flex align-items-center">
+                      <i class="bi bi-heart pr-4"></i>
+                      <i class="bi bi-image"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="row">
+                    <div
+                      class="col d-flex justify-content-center align-items-center col-3-padding-bottom"
+                    >
+                      <i class="bi bi-shuffle"></i>
+                      <i class="bi bi-skip-backward"></i>
+                      <i class="bi bi-play-circle mx-4"></i>
+                      <i class="bi bi-skip-forward"></i>
+                      <i class="bi bi-arrow-repeat"></i>
+                    </div>
+                  </div>
+                  <div class="row progress-row">
+                    <div class="col d-flex align-items-center pb-2">
+                      <span>0.12</span>
+                      <progress
+                        class="main-progress m-3"
+                        id="progress"
+                        value="0"
+                        min="0"
+                      >
+                        <span id="progress-bar"></span>
+                      </progress>
+                      <span>3.34</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                  <i class="bi bi-list pr-4"></i>
+                  <i class="bi bi-tv pr-4"></i>
+                  <i class="bi bi-volume-up pr-4"></i>
+                  <progress class="volume-progress" id="progress" value="0" min="0">
+                    <span id="progress-bar"></span>
+                  </progress>
+                </div>
+              </div>
+            </div>
+          </footer>
 
 
     </div>
