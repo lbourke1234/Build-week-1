@@ -11,7 +11,7 @@
     padding-left: 30px;
     cursor: pointer;
     border-right: solid 4px black;
-    border-bottom: solid 400px rgb(24, 24, 24);
+    border-bottom: solid 222px rgb(24, 24, 24);
 }
 
 body > div > div.sidebar.pl-3 > div.d-flex.flex-column > div > span {
@@ -88,7 +88,7 @@ hr {
     font-family: Helvetica, Arial, sans-serif;
     overflow-y: scroll;
     scrollbar-width: auto;
-    height: 200px;
+    height: 600px;
 }
 
 .list-with-scroll-bar {
@@ -97,7 +97,13 @@ hr {
 */ .bi {
     font-size: 1.3em;
 }
-
+#installApp-sticky {
+    position: fixed;
+    opacity: 0.7;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
 /*.sidebar {
     background: #000;
     top: 0;
