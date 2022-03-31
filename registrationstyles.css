@@ -33,16 +33,14 @@ hr {
   background-color: #fff;
   width: 100%;
   border-radius: 30px;
-
   border: 2px solid rgb(83, 83, 83);
-
-
   color: rgb(12, 12, 12);
   padding: 10px 28px;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .google-btn .bi {
   background: conic-gradient(
@@ -104,18 +102,17 @@ hr {
 .footer-text {
   font-size: 10px;
 }
-
 #errorMsg{
   color:red;
   text-align: center;
   font-size: 18px;
   padding-bottom: 20px;
-
+ 
 }
 button a{
   color: #191919;
+  
 }
 button a:link{
   text-decoration: none;
 }
-
