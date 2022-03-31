@@ -73,6 +73,23 @@ hr {
     letter-spacing: normal;
     font-family: Helvetica, Arial, sans-serif;
 }
+.p-lists {
+    font-size: 0.875rem;
+    color: #b3b3b3;
+    line-height: 1.25rem;
+    text-transform: none;
+    letter-spacing: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    color: #b3b3b3;
+    line-height: 1.25rem;
+    text-transform: none;
+    letter-spacing: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-y: scroll;
+    scrollbar-width: auto;
+    height: 200px;
+}
 
 .list-with-scroll-bar {
     overflow-y: scroll;

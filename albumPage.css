@@ -61,6 +61,7 @@ body {
 /*----------------- hero section -----------------------*/
 
 #album-page-hero {
+    padding-left: 15px;
     background: rgb(217, 2, 216);
     background: linear-gradient(
         45deg,
@@ -84,7 +85,7 @@ body {
     margin-left: -10px;
 }
 #album-page-hero > div > div.row > div.col-12.col-md-9 > div {
-    padding-left: 20px;
+    padding-left: 35px;
 }
 /*------------ side nav-------------------------
 #navbar {
