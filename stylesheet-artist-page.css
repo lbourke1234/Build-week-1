@@ -53,6 +53,11 @@ tr {
 
     }
 
+  @media (min-width: 576px) { 
+    .jumbotron {
+    padding-bottom: 2rem; 
+ }
+ 
 
     .container-top-with-nav {
         padding-right: 0;
@@ -110,7 +115,7 @@ cursor: pointer;
 
 .bi-play-circle-fill {
     color: #1ed760;
-    font-size: 4em;
+    font-size: 4em !important;
     cursor: pointer;
 }
 
@@ -121,7 +126,7 @@ cursor: pointer;
 
 
 .table-playlist {
-     height: 100vh; 
+ height: 1000px !important;
 }
 
 .album-cover-picture {
@@ -137,6 +142,11 @@ cursor: pointer;
     display: flex;
     flex-direction: row;
     cursor: pointer;
+}
+
+
+.heart-table {
+    opacity: 0;
 }
 
 
@@ -156,6 +166,23 @@ td:hover, tr:hover, th:hover {
 }
 
 
+/* The heart and the hovering  */
+
+td:hover .heart-table {
+    opacity: 1;
+}
+
+tr:hover .heart-table {
+    opacity: 1;
+    color: #1ed760;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+   
 
 .soundwave-icon {
     vertical-align: middle;
@@ -187,6 +214,11 @@ td:hover, tr:hover, th:hover {
 
 /* Sidebar  */
 
+.top-sidebar {
+    position: fixed;
+    width: 266px;
+}
+
 .sidebar {
     background: #000;
     top: 0;
@@ -199,9 +231,11 @@ td:hover, tr:hover, th:hover {
     padding-left: 30px;
     cursor: pointer;
     border-right: solid 4px black;
-    border-bottom: solid 400px rgb(24, 24, 24);
+    border-bottom: solid 222px rgb(24, 24, 24);
     
 }
+
+
 
 body > div > div.sidebar.pl-3 > div.d-flex.flex-column > div > span {
     font-size: 0.875rem;
@@ -263,126 +297,25 @@ body > div > div.sidebar > div.d-flex.flex-column > div:hover {
     color: #b3b3b3;
     line-height: 1.25rem;
     text-transform: none;
-  letter-spacing: normal;
-  font-family: Helvetica,Arial,sans-serif;
+    letter-spacing: normal;
+    font-family: Helvetica,Arial,sans-serif;
+    overflow-y: scroll;
+    scrollbar-width: 300px;
+    height: 400px;
 } 
-  
-  .list-with-scroll-bar { 
-  overflow-y: scroll;
-}
- */
+
   .bi {
       font-size: 1.3em;
   }
 
-
 /* End Sidebar  */
-
 
   .all-except-sidebar {
       display: flex;
       flex-direction: column;
       flex-grow: 2;
-      /* height: 100vh; */
+      height: 100vh; 
   }
-
-
-
-  /* Footer  */
-
-  footer {
-    background: #181818;
-    position:fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #B3B3B3;
-    height: auto;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    
-}
-
-footer .bi {
-    font-size: 1em;
-}
-
-footer img {
-    height: 70px;
-    width: 70px;
- 
-    padding: 6px;
-    cursor: pointer;
-}
-.p-song-name {
-    font-size: .7em;
-    margin-top: 30px;
-    margin-left: -15px;
-
-}
-.p-artist-name {
-    font-size: .5em;
-    margin-left: 0;
-    margin-top: -10px;
-}
-
-.main-progress {
-    height: 20%;
-    width: 100%;
-    cursor:grab;
-
-
-}
-.bi-play-circle {
-    font-size: 2em !important;
-    cursor: pointer;
-}
-.volume-progress {
-    height: 5%;
-    width: 25%;
-    cursor: grab;
-}
-.bi-shuffle {
-    font-size: 1.5em;
-    cursor: pointer;
-}
-.bi-skip-backward {
-    font-size: 1.5em;
-    cursor: pointer;
-}
-.bi-skip-forward {
-    font-size: 1.5em;
-    cursor: pointer;
-}
-.bi-arrow-repeat {
-    font-size: 1.5em;
-    cursor: pointer;
-}
-.bi-heart {
-    font-size: 1.5em;
-    cursor: pointer;
-    margin-left: -15px;
-    
-}
-.bi-image {
-    font-size: 1.5em;
-    cursor: pointer;
-    margin-left: -15px;
-    padding-left: 10px;
-}
-.bi-list {
-    font-size: 1.5em;
-    cursor: pointer;
-}
-.bi-tv {
-    font-size: 1.5em;
-    cursor: pointer;
-}
-.bi-volume-up {
-    font-size: 1.5em;
-}
-
-
 
 /* Navbar  */
 
@@ -398,13 +331,11 @@ footer img {
 }
 
 .arrows {
-    position: absolute;
+    position: fixed;
     top: 0;
     padding-top: 15px;
-    padding-left: 15px;
-    
+    padding-left: 15px;    
 }
-
 
 .arrow2, .arrow1 {
     background-color: rgba(59, 59, 59, 0.5);
@@ -413,17 +344,14 @@ footer img {
     padding: 5px;
     color: white;
     /* opacity: 0.5; */
-    
 }
-
 
 .arrow2 {
     margin-left: 0.6em;
 }
 
-
 .profile-picture-button { 
-position: absolute;
+position: fixed;
 top: 0;
 right: 0;
 padding-right: 15px;
@@ -442,8 +370,6 @@ opacity: 0.8;
     font-size: 1.3em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
-    
-
 }
 
 .profile-picture-top-bar {
@@ -453,7 +379,6 @@ opacity: 0.8;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
 }
 
 body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.profile-picture-button > div > div > span {
@@ -462,6 +387,111 @@ body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.pr
     font-weight: 700;
 }
 
+
 body > div > div.all-except-sidebar > div:nth-child(1) > div > div.navbar-col.profile-picture-button > div > div > i {
-    font-size: 0.6em;
+font-size: 0.6em;
+} 
+
+/* End Navbar  */
+
+
+  /* Footer  */
+
+  footer {
+    background: #181818;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #B3B3B3;
+    height: auto;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+footer .bi {
+    font-size: 1em;
+}
+
+footer img {
+    height: 70px;
+    width: 70px;
+    padding: 6px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.p-song-name {
+    font-size: .7em;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.p-artist-name {
+    font-size: .5em;
+    margin-left: 0;
+    margin-top: -10px;
+}
+
+.main-progress {
+    height: 20%;
+    width: 100%;
+    cursor: grab;
+}
+
+.bi-play-circle {
+    font-size: 2em !important;
+    cursor: pointer;
+}
+
+.volume-progress {
+    height: 5%;
+    width: 25%;
+    cursor: grab;
+}
+
+.bi-shuffle {
+    /* font-size: 1.5em; */
+    cursor: pointer;
+}
+
+.bi-skip-backward {
+    /* font-size: 1.5em; */
+    cursor: pointer;
+}
+
+.bi-skip-forward {
+    /* font-size: 1.5em; */
+    cursor: pointer;
+}
+
+.bi-arrow-repeat {
+    /* font-size: 1.5em; */
+    cursor: pointer;
+}
+
+.bi-heart {
+    /* font-size: 1.5em; */
+    cursor: pointer;
+    margin-left: -15px;
+}
+
+.bi-image {
+    /* font-size: 1.5em; */
+    cursor: pointer;
+    margin-left: -15px;
+    padding-left: 10px;
+}
+
+.bi-list {
+    /* font-size: 1.5em; */
+    cursor: pointer;
+}
+
+.bi-tv {
+    /* font-size: 1.5em; */
+    cursor: pointer;
+}
+
+.bi-volume-up {
+    /* font-size: 1.5em; */
 }
